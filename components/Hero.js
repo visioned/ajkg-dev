@@ -19,7 +19,7 @@ const Index = () => {
           overflow: 'visible'
         }}
         alt='...'
-        className='opacity-30 dark:opacity-10 z-0'
+        className='opacity-30 dark:opacity-5 z-0'
       />
 
       <div className='flex flex-col mt-40'>
