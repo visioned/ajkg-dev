@@ -8,12 +8,18 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        wiggle: 'wiggle 1s ease-in-out infinite',
+        'slide-up': 'slide-up 2s ease',
       },
       keyframes: {
-        wiggle: {
-          '0%, 100%': { transform: 'rotate(-3deg)' },
-          '50%': { transform: 'rotate(3deg)' },
+        'slide-up': {
+          from: {
+            transform: 'translateY(200px)',
+            opacity: '0',
+          },
+          to: {
+            transform: 'translateY(0)',
+            opacity: '1',
+          },
         },
       },
       fontFamily: {

@@ -6,20 +6,20 @@ import spirals from '../public/images/vertex.svg';
 
 const Index = () => {
   return (
-    <section className='min-h-[60vh] overflow-hidden '>
+    <section className='min-h-[60vh] '>
       <Image
         src={spirals}
         style={{
           width: '100%',
-          height: '80vh',
+          height: '100vh',
           position: 'absolute',
           left: '0px',
           top: '0px',
           filter: 'inherit',
-          overflow: 'visible'
+          overflow: 'visible',
         }}
         alt='...'
-        className='opacity-30 dark:opacity-5 z-0'
+        className='opacity-30 dark:opacity-10 z-0  '
       />
 
       <div className='flex flex-col mt-40'>
@@ -28,8 +28,8 @@ const Index = () => {
             className='rounded-full border drop-shadow-2xl'
             alt='...'
             src={avatar}
-            width={100}
-            height={100}
+            width={125}
+            height={125}
           />
         </div>
 
@@ -37,7 +37,7 @@ const Index = () => {
           web developer
         </h3>
 
-        <h1 class='text-5xl uppercase font-semibold text-center z-10'>
+        <h1 class='text-5xl uppercase font-semibold text-center z-10 animate__animated animate__jackInTheBox'>
           aj gonzales
         </h1>
 

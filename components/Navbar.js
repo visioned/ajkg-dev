@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Index = () => {
   const navigation = [
     { label: 'About', path: '#about', id: 1 },
-    { label: 'Tools', path: '#tools', id: 2 },
+    // { label: 'Tools', path: '#tools', id: 2 },
     { label: 'Projects', path: '#projects', id: 3 },
   ];
   return (

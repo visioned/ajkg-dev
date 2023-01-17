@@ -10,14 +10,14 @@ const prompt = Prompt({
 
 const karla = Karla({
   subsets: ['latin'],
-  weight: ['300'],
+  weight: ['200','300'],
   variable: '--font-karla',
 });
 
 export default function App({ Component, pageProps }) {
   return (
-    <ThemeProvider attribute='class'>
-      <main className={`${prompt.variable} ${karla.variable} font-prompt overflow-hidden`}>
+    <ThemeProvider attribute='class' enableSystem={true}>
+      <main className={`${prompt.variable} ${karla.variable} font-prompt`}>
         <Component {...pageProps} />
       </main>
     </ThemeProvider>
