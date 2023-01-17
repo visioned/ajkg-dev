@@ -25,16 +25,29 @@ const Contact = () => {
         </span>
         <div className='flex pt-14'>
           <Button className='h-12 w-48 bg-green-500 flex justify-evenly items-center'>
-            <p className='text-xl'>Say Hello</p>
+            <a href="mailto:hello@ajkg.dev"><p className='text-xl'>Say Hello</p></a>
             <GrSend className='text-2xl' />
           </Button>
         </div>
       </div>
       <div className='flex space-x-4 justify-center pt-20'>
-        <SiInstagram className={`${icons}`} />
-        <SiLinkedin className={`${icons}`} />
-        <SiDiscord className={`${icons}`} />
-        <SiGithub className={`${icons}`} />
+        <a
+          href='https://instagram.com/aj.gonzales'
+          rel='noreferrer'
+          target='_blank'
+        >
+          <SiInstagram className={`${icons}`} />
+        </a>
+        <a href='https://www.linkedin.com/in/ajkg' rel='noreferrer' target='_blank'>
+          <SiLinkedin className={`${icons}`} />
+        </a>
+        <a
+          href='https://github.com/visioned'
+          rel='noreferrer'
+          target='_blank'
+        >
+          <SiGithub className={`${icons}`} />
+        </a>
       </div>
     </section>
   );

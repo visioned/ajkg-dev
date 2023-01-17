@@ -12,7 +12,7 @@ const Index = () => {
       <ul className='flex py-2'>
         {navigation.map((nav) => {
           return (
-            <li key={nav.id} className='mx-4 hover:scale-110'>
+            <li key={nav.id} className='mx-4 hover:scale-110 hover:text-slate-400 hover:underline'>
               <Link href={nav.path} scroll={false}>
                 {nav.label}
               </Link>

@@ -1,8 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import Navbar from '../components/Navbar';
+import Navbar from './Navbar';
 import avatar from '../public/images/headshot.png';
 import spirals from '../public/images/vertex.svg';
+
+import 'animate.css';
 
 const Index = () => {
   return (
@@ -23,9 +25,9 @@ const Index = () => {
       />
 
       <div className='flex flex-col mt-40'>
-        <div className='flex justify-center '>
+        <div className='flex justify-center animate__animated animate__fadeIn'>
           <Image
-            className='rounded-full border drop-shadow-2xl'
+            className='rounded-full border drop-shadow-2xl  '
             alt='...'
             src={avatar}
             width={125}

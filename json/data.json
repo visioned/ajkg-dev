@@ -2,15 +2,16 @@
   "side_projects": [
     {
       "id": "1",
-      "title": "Modern Banking SPA",
-      "description": "A modern banking spa landing page. Referenced from a figma file and built in React.",
-      "tools": "React"
+      "title": "Google Keep clone",
+      "description": "A simple Google Keep clone, made with Vite, and Firebase.",
+      "tools": "React Firebase Vite TailwindCSS"
     },
     {
       "id": "2",
-      "title": "Coral Data",
-      "description": "Corals and their data",
-      "tools": "React, Redux, TailwindCSS, NodeJS, Express, MongoDB, Mongoose, Heroku, Netlify "
+      "title": "Landing Page",
+      "description": "Figma design to reality. Single page landing.",
+      "tools": "React Figma",
+      "git": "https://github.com/visioned/modernBank"
     },
     {
       "id": "3",
