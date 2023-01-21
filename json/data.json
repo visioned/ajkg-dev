@@ -17,7 +17,7 @@
       "id": "3",
       "title": "Google Keep Clone",
       "description": "Google Keeper App Clone",
-      "tools": "React, Redux, TailwindCSS, NodeJS, Express, MongoDB, Mongoose, Heroku, Netlify "
+      "tools": "Vite React"
     },
     {
       "id": "4",
@@ -42,7 +42,7 @@
     {
       "id": "1",
       "title": "ajkg.dev",
-      "description": "My personal portfolio website. Built on Next JS, TailwindCSS, and hosted on Vercel. I'll be exploring Next JS 13 in the near future as stability is still a concern.",
+      "description": "My playground. I test a lot of stuff here, different libraries and frameworks. I also use this site to showcase my work.",
       "src": "/images/project0.png"
     },
     {

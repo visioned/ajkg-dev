@@ -13,22 +13,22 @@ const Contact = () => {
         <h2 className='font-bold text-4xl'>Contact</h2>
       </div>
       <div className='flex flex-col items-center py-4 justify-center'>
-        <p className='flex justify-center text-center font-karla max-w-md py-4'>
+        <p className='flex justify-center text-center font-karla max-w-md py-4 leading-relaxed'>
           I&apos;m always down for something new and my inbox is open for fresh
           ideas. Whether you have a question or just want to say hello, hit me
           up!
           <br />
           <br />
         </p>
-        <span className=' flex items-center font-bold'>
+        <span className=' flex items-center font-karla'>
           Lets make some moves together!
         </span>
-        <div className='flex pt-14'>
+        <a href='mailto:hello@ajkg.dev' className='flex pt-14 hover:scale-110'>
           <Button className='h-12 w-48 bg-green-500 flex justify-evenly items-center'>
-            <a href="mailto:hello@ajkg.dev"><p className='text-xl'>Say Hello</p></a>
-            <GrSend className='text-2xl' />
+            <p className='text-xl'>Say Hello</p>
+            <GrSend className='text-2xl ' />
           </Button>
-        </div>
+        </a>
       </div>
       <div className='flex space-x-4 justify-center pt-20'>
         <a
@@ -38,14 +38,14 @@ const Contact = () => {
         >
           <SiInstagram className={`${icons}`} />
         </a>
-        <a href='https://www.linkedin.com/in/ajkg' rel='noreferrer' target='_blank'>
-          <SiLinkedin className={`${icons}`} />
-        </a>
         <a
-          href='https://github.com/visioned'
+          href='https://www.linkedin.com/in/ajkg'
           rel='noreferrer'
           target='_blank'
         >
+          <SiLinkedin className={`${icons}`} />
+        </a>
+        <a href='https://github.com/visioned' rel='noreferrer' target='_blank'>
           <SiGithub className={`${icons}`} />
         </a>
       </div>

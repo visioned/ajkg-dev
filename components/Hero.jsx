@@ -2,32 +2,16 @@ import React from 'react';
 import Image from 'next/image';
 import Navbar from './Navbar';
 import avatar from '../public/images/headshot.png';
-import spirals from '../public/images/vertex.svg';
 
 import 'animate.css';
 
 const Index = () => {
   return (
     <section className='min-h-[60vh] '>
-      <Image
-        src={spirals}
-        style={{
-          width: '100%',
-          height: '100vh',
-          position: 'absolute',
-          left: '0px',
-          top: '0px',
-          filter: 'inherit',
-          overflow: 'visible',
-        }}
-        alt='...'
-        className='opacity-30 dark:opacity-10 z-0  '
-      />
-
       <div className='flex flex-col mt-40'>
-        <div className='flex justify-center animate__animated animate__fadeIn'>
+        <div className='flex justify-center'>
           <Image
-            className='rounded-full border drop-shadow-2xl  '
+            className='rounded-full border drop-shadow-2xl'
             alt='...'
             src={avatar}
             width={125}
@@ -35,11 +19,11 @@ const Index = () => {
           />
         </div>
 
-        <h3 className='font-karla text-md my-2 tracking-[.6em] uppercase text-center'>
+        <h3 className='font-karla text-md my-2 tracking-[.6em] uppercase text-center animate__animated animate__fadeIn animate__delay-1s'>
           web developer
         </h3>
 
-        <h1 class='text-5xl uppercase font-semibold text-center z-10 animate__animated animate__jackInTheBox'>
+        <h1 class='text-5xl uppercase font-semibold text-center z-10 animate__animated animate__fadeIn'>
           aj gonzales
         </h1>
 

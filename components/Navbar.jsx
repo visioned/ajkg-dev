@@ -8,11 +8,11 @@ const Index = () => {
     { label: 'Projects', path: '#projects', id: 3 },
   ];
   return (
-    <nav className='font-karla font-bold text-md flex justify-center z-10'>
-      <ul className='flex py-2'>
+    <nav className='font-karla text-md flex justify-center z-10 '>
+      <ul className='flex py-2 '>
         {navigation.map((nav) => {
           return (
-            <li key={nav.id} className='mx-4 hover:scale-110 hover:text-slate-400 hover:underline'>
+            <li key={nav.id} className='mx-4 animate__animated animate__fadeInUp hover:underline-offset-2'>
               <Link href={nav.path} scroll={false}>
                 {nav.label}
               </Link>

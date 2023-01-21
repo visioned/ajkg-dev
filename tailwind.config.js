@@ -25,6 +25,7 @@ module.exports = {
       fontFamily: {
         prompt: ['var(--font-prompt)'],
         karla: ['var(--font-karla)'],
+        source: ['var(--font-source-code-pro)'],
       },
     },
   },
