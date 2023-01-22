@@ -12,7 +12,7 @@ const Background = () => {
           height: '90vh',
           position: 'absolute',
           right: '20px',
-          bottom: '142px',
+          bottom: '105px',
           filter: 'inherit',
           overflow: 'visible',
         }}

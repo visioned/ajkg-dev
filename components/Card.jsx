@@ -20,12 +20,12 @@ const Card = ({ project }) => {
           <h2 className='text-2xl py-2 items-center flex justify-between'>
             {`${project.title}`}
             <Button>
-              <a href='#'>
+              <a href={`${project.href}`}>
                 <HiExternalLink />
               </a>
             </Button>
           </h2>
-          <p className='max-w-sm text-sm py-2'>{`${project.description}`}</p>
+          <p className='max-w-sm text-sm py-2 font-karla'>{`${project.description}`}</p>
         </div>
       </div>
     </div>

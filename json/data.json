@@ -16,7 +16,7 @@
     },
     {
       "id": "3",
-      "title": "Simon Says game",
+      "title": "Simon Says",
       "description": "Exploring event listeners and sound files in vanilla JavaScript. ",
       "tools": "JavaScript, HTML, CSS",
       "href": "https://visioned.github.io/simon/",
@@ -49,7 +49,7 @@
     {
       "id": "7",
       "title": "Starcraft 2 Race Picker",
-      "description": "Starcraft 2 random race picker, made with React and exploring hooks.",
+      "description": "Starcraft 2 random race picker, made with React.",
       "tools": "React",
       "href": "https://visioned.github.io/drum/",
       "git": "https://github.com/visioned/drum"
@@ -67,13 +67,14 @@
     {
       "id": "1",
       "title": "ajkg.dev",
-      "description": "My playground. I test a lot here. I get the chance to hit a lot of different libraries and frameworks. I really just try to have fun and stay curious. I also use this site to showcase my work. This is ever changing. I am always learning and growing.",
-      "src": "/images/project0.png"
+      "description": "My playground. I get the chance to hit a lot of different libraries and frameworks. I really just try to have fun and stay curious. I also use this site to showcase my work. This is ever changing. I am always learning and growing.",
+      "src": "/images/project0.png",
+      "href": "https://ajkg.dev"
     },
     {
       "id": "2",
-      "title": "Byond Details",
-      "description": "Mobile Detailing booking App.",
+      "title": "Expensify",
+      "description": "Build with Remix.run, TailwindCSS, and Firebase. I used this project to learn Remix. ",
       "src": "/images/project0.png"
     }
   ],

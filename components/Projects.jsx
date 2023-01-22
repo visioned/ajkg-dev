@@ -43,7 +43,6 @@ const Index = () => {
                 <SideProject side_project={side_project} />
               </div>
             );
-            count++;
           }
         })}
       </div>
