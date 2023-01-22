@@ -11,7 +11,7 @@ const Index = () => {
         <div className='mx-4 animate__animated animate__fadeIn'>
           <Image
             className='rounded-3xl drop-shadow-xl'
-            src='/images/profile.jpg'
+            src='/images/profile.png'
             height={325}
             width={325}
             alt='profile'
