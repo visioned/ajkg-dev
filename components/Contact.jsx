@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import { SiInstagram, SiLinkedin, SiDiscord, SiGithub } from 'react-icons/Si';
-import { HiOutlineStatusOnline } from 'react-icons/hi';
+import { SiInstagram, SiLinkedin, SiGithub } from 'react-icons/Si';
 import { GrSend } from 'react-icons/gr';
 
 const Contact = () => {
