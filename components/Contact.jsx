@@ -1,8 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import { SiInstagram } from 'react-icons/Si';
-import { SiLinkedin } from 'react-icons/Si';
-import { SiGithub } from 'react-icons/Si';
+import { SiInstagram, SiGithub, SiLinkedin } from 'react-icons/si';
 import { GrSend } from 'react-icons/gr';
 
 const Contact = () => {
