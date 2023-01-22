@@ -7,7 +7,7 @@ import 'animate.css';
 
 const Index = () => {
   return (
-    <section className='min-h-[60vh] '>
+    <section className='min-h-[60vh] transition-all ease duration-200'>
       <div className='flex flex-col mt-40'>
         <div className='flex justify-center'>
           <Image

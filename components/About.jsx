@@ -3,8 +3,11 @@ import Image from 'next/image';
 
 const Index = () => {
   return (
-    <section id='about' className='min-h-[50vh] pt-1'>
-      <div className='flex flex-col justify-evenly items-center sm:flex-row'>
+    <section
+      id='about'
+      className='min-h-[50vh] pt-1 transition-all ease duration-200'
+    >
+      <div className='flex flex-col justify-evenly items-center sm:flex-row '>
         <div className='mx-4 animate__animated animate__fadeIn'>
           <Image
             className='rounded-3xl drop-shadow-xl'

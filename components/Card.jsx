@@ -4,7 +4,7 @@ import { HiExternalLink } from 'react-icons/hi';
 
 const Card = ({ project }) => {
   return (
-    <div className='bg-gray-100 dark:bg-[#3e3f4b] rounded-2xl w-[445px] h-[520px] flex justify-center drop-shadow-lg'>
+    <div className='transition-all ease duration-200 bg-gray-100 dark:bg-[#3e3f4b] rounded-2xl w-[445px] h-[520px] flex justify-center drop-shadow-lg'>
       <div>
         <div className=' w-[375px] h-[300px] rounded-2xl drop-shadow-lg hover:-translate-y-6 transition-all duration-500  hover:drop-shadow-xl'>
           <Image

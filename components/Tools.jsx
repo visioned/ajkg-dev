@@ -1,19 +1,20 @@
 import data from '../json/data.json';
 import ToolCard from './ToolCard';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, A11y, EffectFade } from 'swiper';
+import { Autoplay, A11y } from 'swiper';
 import 'swiper/css';
 
 const Index = () => {
   return (
     <section id='tools'>
-      <div className='pt-10'>
+      <div className='pt-10 transition-all ease duration-200'>
         <Swiper
           modules={[Autoplay, A11y]}
+          className='swiper-container'
           loop={true}
           fill
           transitionDuration={1000}
-          speed={5000}
+          speed={4000}
           autoplay={{ delay: 0, disableOnInteraction: false }}
           touchReleaseOnEdges={true}
           slidesPerView='auto'
@@ -27,7 +28,7 @@ const Index = () => {
           {data.tools.map((tool) => {
             return (
               <div key={tool.id}>
-                <SwiperSlide className='flex justify-center mt-3 pb-8 swiper-wrapper'>
+                <SwiperSlide className='flex justify-center mt-3 pb-8 swiper-wrapper '>
                   <ToolCard tool={tool} />
                 </SwiperSlide>
               </div>

@@ -5,6 +5,7 @@ import Button from './Button';
 import { useState } from 'react';
 import SideProject from './SideProject';
 import { Tools } from '../components/index.js';
+
 const Index = () => {
   const [showMore, setShowMore] = useState(false);
   const [buttonText, setButtonText] = useState('Show More');
@@ -15,10 +16,10 @@ const Index = () => {
   };
 
   return (
-    <section id='projects' className='min-h-screen py-20'>
+    <section id='projects' className='min-h-screen py-20 transition-all ease duration-200'>
       <div>
         <div>
-          <h2 className='flex justify-center text-4xl font-bold'>Projects</h2>
+          <h2 className='flex justify-center text-4xl font-bold'>Featured Projects</h2>
         </div>
 
         <div className='flex items-center gap-6 flex-col md:flex-row md:flex-wrap bg-[#33333] justify-around py-5 '>
@@ -48,7 +49,7 @@ const Index = () => {
       </div>
       {/* click */}
       {showMore && (
-        <div className='flex flex-wrap gap-6 justify-center animate__animated animate__fadeIn'>
+        <div className='flex flex-wrap md:gap-6 justify-center animate__animated animate__fadeIn'>
           {data.side_projects.slice(3).map((side_project) => {
             return (
               <div className='flex ' key={side_project.title}>

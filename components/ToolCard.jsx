@@ -6,10 +6,10 @@ function ToolCard({ tool }) {
     <a
       href={`${tool.href}`}
       target='blank'
-      className='z-10 flex flex-col justify-evenly dark:bg-[#3e3f4b] bg-gray-100 w-[100px] h-[115px] shadow-md hover:shadow-lg hover:scale-110 rounded-2xl transition-all ease-in duration-200'
+      className='flex flex-col justify-evenly dark:bg-[#3e3f4b] bg-gray-100 w-[100px] h-[115px] shadow-md hover:shadow-lg hover:scale-110 rounded-2xl'
     >
       {/* card // icon + text*/}
-      <div className='flex justify-center drop-shadow transition-all ease duration-200'>
+      <div className='flex justify-center drop-shadow'>
         <Image
           className={`${tool.class} py-1 drop-shadow-lg`}
           src={tool.src}

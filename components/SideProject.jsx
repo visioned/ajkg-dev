@@ -6,7 +6,7 @@ import { FiGithub } from 'react-icons/fi';
 function SideProject({ side_project }) {
   return (
     <div className='flex relative justify-center pt-4 z-10'>
-      <div className='flex flex-col h-[275px] w-[325px] bg-gray-100 dark:bg-[#3e3f4b] border rounded-xl p-8 hover:-translate-y-2 transition-all duration-300 ease-out shadow-md'>
+      <div className='flex flex-col h-[275px] w-[325px] bg-gray-100 dark:bg-[#3e3f4b] border rounded-xl p-8 hover:-translate-y-2 transition-all duration-200 ease shadow-md'>
         <div className='flex justify-between'>
           <TbFolder className='text-5xl' />
 

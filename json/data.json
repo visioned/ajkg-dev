@@ -8,41 +8,66 @@
     },
     {
       "id": "2",
-      "title": "Landing Page",
-      "description": "Figma design to reality. Single page landing.",
-      "tools": "React Figma",
-      "git": "https://github.com/visioned/modernBank"
+      "title": "Gericht",
+      "description": "Found a great design on Figma. Had some fun with parallax. Responsive design.",
+      "tools": "React Figma Vercel",
+      "href": "https://gericht-olive.vercel.app/",
+      "git": "https://github.com/visioned/gericht"
     },
     {
       "id": "3",
-      "title": "Google Keep Clone",
-      "description": "Google Keeper App Clone",
-      "tools": "Vite React"
+      "title": "Simon Says game",
+      "description": "Exploring event listeners and sound files in vanilla JavaScript. ",
+      "tools": "JavaScript, HTML, CSS",
+      "href": "https://visioned.github.io/simon/",
+      "git": "https://github.com/visioned/simon"
     },
     {
       "id": "4",
-      "title": "Google Keep Clone",
-      "description": "Google Keeper App Clone",
-      "tools": "React, Redux, TailwindCSS, NodeJS, Express, MongoDB, Mongoose, Heroku, Netlify "
+      "title": "GPT-3",
+      "description": "Another great design on Figma, recreated in React. Responsive and easy to use.",
+      "tools": "Vite React Figma Vercel",
+      "href": "http://gpt3-omega.vercel.app/",
+      "git": "https://github.com/visioned/gpt3"
     },
     {
       "id": "5",
-      "title": "Google Keep Clone",
-      "description": "Google Keeper App Clone",
-      "tools": "React, Redux, TailwindCSS, NodeJS, Express, MongoDB, Mongoose, Heroku, Netlify "
+      "title": "Hoobank",
+      "description": "A design from Figma, recreated in React. Easy to use, and responsive.",
+      "tools": "React, Figma, Vercel",
+      "href": "https://hoobank-sable.vercel.app/",
+      "git": "https://github.com/visioned/HooBank"
     },
     {
       "id": "6",
-      "title": "Google Keep Clone",
-      "description": "Google Keeper App Clone",
-      "tools": "React, Redux, TailwindCSS, NodeJS, Express, MongoDB, Mongoose, Heroku, Netlify "
+      "title": "Javascript Drum Kit",
+      "description": "A drum kit made with vanilla JavaScript. I used event listeners and audio files. I also added a feature to play the drum kit with the keyboard.",
+      "tools": "Javascript, HTML, CSS",
+      "href": "https://visioned.github.io/drum/",
+      "git": "https://github.com/visioned/drum"
+    },
+    {
+      "id": "7",
+      "title": "Starcraft 2 Race Picker",
+      "description": "Starcraft 2 random race picker, made with React and exploring hooks.",
+      "tools": "React",
+      "href": "https://visioned.github.io/drum/",
+      "git": "https://github.com/visioned/drum"
+    },
+    {
+      "id": "8",
+      "title": "Coral Data",
+      "description": "Using MongoDB as a back end to catalog different corals. I use React on the front end to display the data.",
+      "tools": "React, MongoDB, NextJS",
+      "href": "",
+      "git": "https://github.com/visioned/coralData"
     }
   ],
   "projects": [
     {
       "id": "1",
       "title": "ajkg.dev",
-      "description": "My playground. I test a lot of stuff here, different libraries and frameworks. I also use this site to showcase my work.",
+      "description": "My playground. I test a lot here. I get the chance to hit a lot of different libraries and frameworks. I really just try to have fun and stay curious. I also use this site to showcase my work. This is ever changing. I am always learning and growing.",
       "src": "/images/project0.png"
     },
     {
@@ -54,153 +79,153 @@
   ],
   "tools": [
     {
+      "id": "1",
       "title": "React JS",
       "src": "/icons/React.svg",
       "height": "70",
       "width": "60",
       "alt": "React JS",
       "class": "",
-      "id": "1",
       "href": "https://reactjs.org/"
     },
     {
+      "id": "2",
       "title": "Figma",
       "src": "/icons/Figma.svg",
       "height": "70",
       "width": "42",
       "alt": "Figma",
       "class": "",
-      "id": "2",
       "href": "https://www.figma.com/"
     },
     {
+      "id": "3",
       "title": "Gatsby",
       "src": "/icons/Gatsby.svg",
       "height": "70",
       "width": "62",
       "alt": "Gatsby",
       "class": "",
-      "id": "3",
       "href": "https://www.gatsbyjs.com/"
     },
     {
+      "id": "4",
       "title": "GraphQL",
       "src": "/icons/GraphQL.svg",
       "height": "70",
       "width": "62",
       "alt": "GraphQL",
       "class": "",
-      "id": "4",
       "href": "https://graphql.org/"
     },
     {
+      "id": "5",
       "title": "MongoDB",
       "src": "/icons/MongoDB.svg",
       "height": "40",
       "width": "28",
       "alt": "MongoDB",
       "class": "",
-      "id": "5",
       "href": "https://www.mongodb.com/"
     },
     {
+      "id": "6",
       "title": "NextJS",
       "src": "/icons/NextJS.svg",
       "height": "70",
       "width": "60",
       "alt": "Next JS",
       "class": "pt-6",
-      "id": "6",
       "href": "https://nextjs.org/"
     },
     {
+      "id": "7",
       "title": "NodeJS",
       "src": "/icons/NodeJS.svg",
       "height": "70",
       "width": "60",
       "alt": "Node JS",
       "class": "",
-      "id": "7",
       "href": "https://nodejs.org/en/"
     },
     {
+      "id": "8",
       "title": "PostgreSQL",
       "src": "/icons/PostgreSQL.svg",
       "height": "70",
       "width": "50",
       "alt": "PostgreSQL",
       "class": "pt-2",
-      "id": "8",
       "href": "https://www.postgresql.org/"
     },
     {
+      "id": "9",
       "title": "Prisma",
       "src": "/icons/Prisma.svg",
       "height": "70",
       "width": "51",
       "alt": "Prisma",
       "class": "",
-      "id": "9",
       "href": "https://www.prisma.io/"
     },
     {
+      "id": "10",
       "title": "Redux",
       "src": "/icons/Redux.svg",
       "height": "70",
       "width": "60",
       "alt": "Redux",
       "class": "",
-      "id": "10",
       "href": "https://redux.js.org/"
     },
     {
+      "id": "11",
       "title": "TailwindCSS",
       "src": "/icons/TailwindCSS.svg",
       "height": "70",
       "width": "55",
-      "alt": "TailwindCSS",
+      "alt": "Tailwind",
       "class": "py-2",
-      "id": "11",
       "href": "https://tailwindcss.com/"
     },
     {
+      "id": "12",
       "title": "Vite",
       "src": "/icons/Vite.svg",
       "height": "70",
       "width": "60",
       "alt": "Vite",
       "class": "",
-      "id": "12",
       "href": "https://vitejs.dev/"
     },
     {
+      "id": "13",
       "title": "VueJS",
       "src": "/icons/VueJS.svg",
       "height": "70",
       "width": "58",
       "alt": "VueJS",
       "class": "m-1",
-      "id": "13",
       "href": "https://vuejs.org/"
     },
     {
+      "id": "14",
       "title": "Firebase",
       "src": "/icons/Firebase.svg",
       "height": "70",
       "width": "59",
       "alt": "VueJS",
       "class": "",
-      "id": "14",
       "href": "https://firebase.google.com/"
     },
     {
+      "id": "15",
       "title": "Wordpress",
       "src": "/icons/Wordpress.svg",
       "height": "70",
       "width": "59",
       "alt": "Wordpress CMS",
       "class": "",
-      "id": "15",
       "href": "https://wordpress.com/"
     }
   ]
