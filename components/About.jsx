@@ -24,7 +24,7 @@ const Index = () => {
             I&apos;m a person with a passion for cultivating experiences.
             <br />
             <br />
-            My skills include development, design, and UX/UI. My greatest
+            My interests include development, design, and UX/UI. My greatest
             strength lies in my ability to think outside the box and approach
             problems from a creative perspective. I am a lifelong learner and
             I am always looking for new ways to grow.
