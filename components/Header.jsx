@@ -30,8 +30,8 @@ const Index = () => {
   };
 
   return (
-    <header className='px-5 overflow-hidden transition-all ease duration-200'>
-      <div className='flex justify-between p-2 text-3xl animate__animated animate__slideInDown animate__fadeIn animate__delay-1s'>
+    <header className='md:px-5 overflow-hidden transition-all ease duration-200'>
+      <div className='flex justify-between md:p-2 text-3xl animate__animated animate__slideInDown animate__fadeIn animate__delay-1s'>
         <h1 className='cursor-pointer z-10 '>
           <Link href='/'></Link>ajkg.dev
         </h1>

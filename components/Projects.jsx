@@ -22,10 +22,10 @@ const Index = () => {
           <h2 className='flex justify-center text-4xl font-bold'>Featured Projects</h2>
         </div>
 
-        <div className='flex items-center gap-6 flex-col md:flex-row md:flex-wrap bg-[#33333] justify-around py-5 '>
+        <div className='flex items-center gap-6 flex-col md:flex-row md:flex-wrap bg-[#33333] justify-around py-10 '>
           {data.projects.map((project) => {
             return (
-              <div className='flex py-10' key={project.title}>
+              <div className='flex' key={project.title}>
                 <Card project={project} />
               </div>
             );

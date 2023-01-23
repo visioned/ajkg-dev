@@ -6,7 +6,7 @@ const Index = () => {
   }
   return (
     <footer>
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center py-5'>
         <p>{year()} 🐈 ajkg.dev</p>
       </div>
     </footer>

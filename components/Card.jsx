@@ -4,20 +4,20 @@ import { HiExternalLink } from 'react-icons/hi';
 
 const Card = ({ project }) => {
   return (
-    <div className='transition-all ease duration-200 bg-gray-100 dark:bg-[#3e3f4b] rounded-2xl w-[445px] h-[520px] flex justify-center drop-shadow-lg'>
+    <div className='flex justify-center overflow-hidden transition-all ease duration-200 bg-gray-100 dark:bg-[#3e3f4b] rounded-2xl w-[385px] h-[520px] drop-shadow-lg'>
       <div>
-        <div className=' w-[365px] h-[300px] rounded-2xl drop-shadow-lg hover:-translate-y-6 transition-all duration-500  hover:drop-shadow-xl'>
+        <div className='w-[385px] h-[300px] rounded-2xl drop-shadow-lg hover:-translate-y-6 transition-all duration-500 hover:drop-shadow-xl'>
           <Image
-            className='rounded-2xl'
+            className='flex justify-center p-4 rounded-2xl'
             src={`${project.src}`}
-            width={375}
+            width={385}
             height={240}
             alt='asdf'
           />
         </div>
 
         <div>
-          <h2 className='text-2xl py-2 items-center flex justify-between'>
+          <h2 className='text-2xl px-4 items-center flex'>
             {`${project.title}`}
             <Button>
               <a href={`${project.href}`}>
@@ -25,7 +25,7 @@ const Card = ({ project }) => {
               </a>
             </Button>
           </h2>
-          <p className='max-w-sm text-sm py-2 font-karla'>{`${project.description}`}</p>
+          <p className='max-w-sm text-sm p-4 font-karla'>{`${project.description}`}</p>
         </div>
       </div>
     </div>
