@@ -13,8 +13,7 @@ const Index = () => {
           className='swiper-container'
           loop={true}
           fill
-          transitionDuration={1000}
-          speed={4000}
+          speed={3000}
           autoplay={{ delay: 0, disableOnInteraction: false }}
           touchReleaseOnEdges={true}
           slidesPerView='auto'
@@ -22,7 +21,7 @@ const Index = () => {
             320: { slidesPerView: 3 },
             640: { slidesPerView: 4 },
             768: { slidesPerView: 6 },
-            1024: { slidesPerView: 7 },
+            1024: { slidesPerView: 8 },
           }}
         >
           {data.tools.map((tool) => {
