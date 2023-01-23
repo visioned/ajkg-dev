@@ -28,7 +28,7 @@ const Index = () => {
           {data.tools.map((tool) => {
             return (
               <div key={tool.id}>
-                <SwiperSlide className='flex justify-center mt-3 pb-8 swiper-wrapper '>
+                <SwiperSlide className='flex justify-center mt-3 pb-8 swiper-wrapper'>
                   <ToolCard tool={tool} />
                 </SwiperSlide>
               </div>

@@ -20,13 +20,13 @@ const sourceCodePro = Source_Code_Pro({
 
 const prompt = Prompt({
   subsets: ['latin'],
-  weight: ['500', '600'],
+  weight: ['200', '300', '400', '500', '600'],
   variable: '--font-prompt',
 });
 
 const karla = Karla({
   subsets: ['latin'],
-  weight: ['200', '300'],
+  weight: ['200','300'],
   variable: '--font-karla',
 });
 

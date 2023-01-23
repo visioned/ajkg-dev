@@ -12,6 +12,7 @@
 .swiper-wrapper {
   transition-timing-function: linear;
 }
+
 @keyframes slide-up {
   from {
     transform: translateY(100px);
