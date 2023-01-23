@@ -9,11 +9,9 @@ const Background = () => {
         src={spirals}
         style={{
           width: '100%',
-          height: '90vh',
+          height: '100%',
           position: 'absolute',
-          right: '20px',
-          filter: 'inherit',
-          overflow: 'visible',
+          right: 0,
         }}
         alt='spirals'
         className='opacity-30 dark:opacity-10 z-0 py-4'
