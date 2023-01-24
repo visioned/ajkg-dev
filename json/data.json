@@ -1,18 +1,28 @@
 {
   "side_projects": [
     {
-      "id": "1",
-      "title": "Google Keep clone",
-      "description": "A simple Google Keep clone, made with Vite, and Firebase.",
-      "tools": "React Firebase Vite TailwindCSS"
-    },
-    {
       "id": "2",
       "title": "Gericht",
-      "description": "Found a great design on Figma. Had some fun with parallax. Responsive design.",
+      "description": "Having some fun with parallax. Always keeping a responsive design.",
       "tools": "React Figma Vercel",
       "href": "https://gericht-olive.vercel.app/",
       "git": "https://github.com/visioned/gericht"
+    },
+    {
+      "id": "4",
+      "title": "GPT-3",
+      "description": "Great design on Figma, recreated in React. Responsive and easy to use.",
+      "tools": "Vite React Figma Vercel",
+      "href": "http://gpt3-omega.vercel.app/",
+      "git": "https://github.com/visioned/gpt3"
+    },
+    {
+      "id": "5",
+      "title": "Hoobank",
+      "description": "A modern banking landing. Deployed on Vercel and built with React.",
+      "tools": "React, Figma, Vercel",
+      "href": "https://hoobank-sable.vercel.app/",
+      "git": "https://github.com/visioned/HooBank"
     },
     {
       "id": "3",
@@ -21,22 +31,6 @@
       "tools": "JavaScript, HTML, CSS",
       "href": "https://visioned.github.io/simon/",
       "git": "https://github.com/visioned/simon"
-    },
-    {
-      "id": "4",
-      "title": "GPT-3",
-      "description": "Another great design on Figma, recreated in React. Responsive and easy to use.",
-      "tools": "Vite React Figma Vercel",
-      "href": "http://gpt3-omega.vercel.app/",
-      "git": "https://github.com/visioned/gpt3"
-    },
-    {
-      "id": "5",
-      "title": "Hoobank",
-      "description": "A design from Figma, recreated in React. Easy to use, and responsive.",
-      "tools": "React, Figma, Vercel",
-      "href": "https://hoobank-sable.vercel.app/",
-      "git": "https://github.com/visioned/HooBank"
     },
     {
       "id": "6",
@@ -67,15 +61,16 @@
     {
       "id": "1",
       "title": "ajkg.dev",
-      "description": "My playground. I get the chance to hit a lot of different libraries and frameworks. I really just try to have fun and stay curious. I also use this site to showcase my work. This is ever changing. I am always learning and growing.",
+      "description": "My playground. I get the chance to hit a lot of different libraries and frameworks. Currently using NextJS and getting more familiar with TailwindCSS, which will be my go-to moving forward.",
       "src": "/images/project0.png",
-      "href": "https://ajkg.dev"
+      "git": "https://github.com/visioned/ajkg-dev"
     },
     {
       "id": "2",
       "title": "Expensify",
-      "description": "Build with Remix.run, TailwindCSS, and Firebase. I used this project to learn Remix. ",
-      "src": "/images/project0.png"
+      "description": "Built with Remix, Prisma and MongoDB as a backend. I used this project to actually learn Remix. Custom Authentication, and CRUD operations. Check out the code on Github.",
+      "src": "/images/project1.png",
+      "git": "https://github.com/visioned/expensify"
     }
   ],
   "tools": [

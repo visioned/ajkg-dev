@@ -1,14 +1,15 @@
 import Image from 'next/image';
 import Button from './Button';
-import { HiExternalLink } from 'react-icons/hi';
+import { FiGithub } from 'react-icons/fi';
+
 
 const Card = ({ project }) => {
   return (
-    <div className='flex justify-center overflow-hidden transition-all ease duration-200 bg-gray-100 dark:bg-[#3e3f4b] rounded-2xl w-[385px] h-[520px] drop-shadow-lg'>
+    <div className='flex justify-center transition-all ease duration-200 bg-gray-100 dark:bg-[#3e3f4b] rounded-2xl w-[385px] h-[520px] drop-shadow-lg'>
       <div>
-        <div className='w-[385px] h-[300px] rounded-2xl drop-shadow-lg hover:-translate-y-6 transition-all duration-500 hover:drop-shadow-xl'>
+        <div className='w-[385px] h-[300px] drop-shadow-lg hover:-translate-y-2 transition-all duration-500 hover:drop-shadow-xl'>
           <Image
-            className='flex justify-center p-4 rounded-2xl'
+            className='flex justify-center p-4'
             src={`${project.src}`}
             width={385}
             height={240}
@@ -17,15 +18,15 @@ const Card = ({ project }) => {
         </div>
 
         <div>
-          <h2 className='text-2xl px-4 items-center flex'>
+          <h2 className='text-2xl px-6 items-center justify-between flex'>
             {`${project.title}`}
             <Button>
-              <a href={`${project.href}`}>
-                <HiExternalLink />
+              <a href={`${project.git}`}>
+                <FiGithub />
               </a>
             </Button>
           </h2>
-          <p className='max-w-sm text-sm p-4 font-karla'>{`${project.description}`}</p>
+          <p className='max-w-sm text-sm p-6 font-karla leading-6'>{`${project.description}`}</p>
         </div>
       </div>
     </div>

@@ -12,9 +12,9 @@ const Index = () => {
           modules={[Autoplay, A11y]}
           className='swiper-container'
           loop={true}
-          fill
+          fill={true}
           speed={3000}
-          autoplay={{ delay: 0, disableOnInteraction: false }}
+          autoplay={{ delay: 1, disableOnInteraction: false }}
           touchReleaseOnEdges={true}
           slidesPerView='auto'
           breakpoints={{
