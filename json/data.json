@@ -61,14 +61,14 @@
     {
       "id": "1",
       "title": "ajkg.dev",
-      "description": "My playground. I get the chance to hit a lot of different libraries and frameworks. Currently using NextJS and getting more familiar with TailwindCSS, which will be my go-to moving forward.",
+      "description": "My playground. I get the chance to hit up a lot of different libraries and frameworks. Currently using NextJS and getting more familiar with TailwindCSS for styling, which will be my go-to moving forward.",
       "src": "/images/project0.png",
       "git": "https://github.com/visioned/ajkg-dev"
     },
     {
       "id": "2",
       "title": "Expensify",
-      "description": "Built with Remix, Prisma and MongoDB as a backend. I used this project to actually learn Remix. Custom Authentication, and CRUD operations. Check out the code on Github.",
+      "description": "Built with Remix, Prisma and MongoDB as a backend. I used this project to learn Remix. I've included custom Auth, and CRUD operations. Check out the code on Github.",
       "src": "/images/project1.png",
       "git": "https://github.com/visioned/expensify"
     }
