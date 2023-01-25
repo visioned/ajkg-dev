@@ -17,7 +17,9 @@ function SideProject({ side_project }) {
               </a>
             </Button>
             <Button>
-              <HiExternalLink className='text-[25px] mx-1' />
+              <a href={`${side_project.href}`} rel='noreferrer' target='_blank'>
+                <HiExternalLink className='text-[25px] mx-1' />
+              </a>
             </Button>
           </div>
         </div>
@@ -27,7 +29,9 @@ function SideProject({ side_project }) {
           {side_project.description}
         </p>
         <div className='flex absolute bottom-0 left-0 p-8'>
-          <p className='text-xs text-slate-500 font-source-code-pro'>{side_project.tools}</p>
+          <p className='text-xs text-slate-500 font-source-code-pro'>
+            {side_project.tools}
+          </p>
         </div>
       </div>
     </div>
