@@ -45,8 +45,8 @@
       "title": "Starcraft 2 Race Picker",
       "description": "Starcraft 2 random race picker, made with React.",
       "tools": "React",
-      "href": "https://visioned.github.io/drum/",
-      "git": "https://github.com/visioned/drum"
+      "href": "https://starcraft-2-picker.vercel.app//",
+      "git": "https://github.com/visioned/starcraft-2-picker"
     },
     {
       "id": "8",
