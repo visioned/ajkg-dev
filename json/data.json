@@ -49,7 +49,7 @@
       "title": "The Local Weather",
       "description": "A simple Weather App that uses the OpenWeatherMap API to display the current weather for a given location. My first actual project using Vue JS. I really wish more companies adopted Vue, it's a great framework. I really see myself using more in the future.",
       "src": "/images/Weather.png",
-      "link": "https://the-local-weather-f80roxtfy-visioned.vercel.app/"
+      "link": "https://the-local-weather-amber.vercel.app/"
     }
   ],
   "tools": [
