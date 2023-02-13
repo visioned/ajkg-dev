@@ -5,5 +5,6 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Projects from '../components/Projects';
 import Tools from '../components/Tools';
+import ClientShowcase from '../components/ClientShowcase';
 
-export { About, Contact, Footer, Header, Hero, Projects, Tools };
+export { About, Contact, Footer, Header, Hero, Projects, Tools, ClientShowcase };

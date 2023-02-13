@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Button from './Button';
-import { FiGithub } from 'react-icons/fi';
+import { FiSend } from 'react-icons/fi';
 
 
 const Card = ({ project }) => {
   return (
-    <div className='flex justify-center transition-all ease duration-200 bg-gray-100 dark:bg-[#3e3f4b] rounded-2xl w-[385px] h-[520px] drop-shadow-lg'>
+    <div className='flex justify-center transition-all ease duration-200 bg-gray-100 dark:bg-[#3e3f4b] rounded-2xl w-[385px] h-[540px] drop-shadow-lg'>
       <div>
         <div className='w-[385px] h-[300px] drop-shadow-lg hover:-translate-y-2 transition-all duration-500 hover:drop-shadow-xl'>
           <Image
@@ -21,8 +21,8 @@ const Card = ({ project }) => {
           <h2 className='text-2xl px-6 items-center justify-between flex'>
             {`${project.title}`}
             <Button>
-              <a href={`${project.git}`}>
-                <FiGithub />
+              <a href={`${project.link}`}>
+                <FiSend />
               </a>
             </Button>
           </h2>

@@ -8,6 +8,7 @@ import {
   Projects,
   Contact,
   Footer,
+  ClientShowcase,
 } from '../components/index';
 import Background from '../components/Background';
 import Backgroundd from '../components/Backgroundd';
@@ -40,6 +41,7 @@ export default function App({ Component, pageProps }) {
         <Hero />
         <About />
         <Projects />
+        <ClientShowcase />
         <Contact />
         <Footer />
       </main>

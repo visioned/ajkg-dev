@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import { SiInstagram, SiGithub, SiLinkedin } from 'react-icons/si';
-import { GrSend } from 'react-icons/gr';
+import { FiMail } from 'react-icons/fi';
 
 const Contact = () => {
   const icons = 'text-3xl cursor-pointer hover:scale-110 z-10';
@@ -23,9 +23,9 @@ const Contact = () => {
           Lets make some moves together!
         </span>
         <a href='mailto:hello@ajkg.dev' className='flex pt-14 hover:scale-110'>
-          <Button className='h-12 w-48 bg-green-500 flex justify-evenly items-center'>
+          <Button className='h-12 w-48 bg-green-500 flex items-center justify-evenly'>
             <p className='text-xl'>Say Hello</p>
-            <GrSend className='text-2xl ' />
+            <FiMail className='text-2xl' />
           </Button>
         </a>
       </div>
