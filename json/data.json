@@ -1,21 +1,21 @@
 {
   "side_projects": [
     {
-      "title": "Interactive Rating Component",
+      "title": "Interactive Rating",
       "description": "Interactive Rating Component. Built with Typescript, React, and TailwindCSS.",
       "tools": "React, Figma, TailwindCSS, Typescript",
       "href": "https://interactive-rating-component-visioned.vercel.app/",
       "git": "https://github.com/visioned/interactive-rating-component"
     },
     {
-      "title": "Summary Component",
+      "title": "Stats Preview",
       "description": "Business Stats Preview Card Component. Built with Typescript, React, and TailwindCSS.",
       "tools": "React, Figma, TailwindCSS, Typescript",
       "href": "https://stats-preview-card-component-visioned.vercel.app/",
       "git": "https://github.com/visioned/stats-preview-card-component"
     },
     {
-      "title": "Summary Component",
+      "title": "Results Summary",
       "description": "Summary Component for a results page. Built with Typescript, React, and TailwindCSS.",
       "tools": "React, Figma, TailwindCSS, Typescript",
       "href": "https://results-summary-component-one.vercel.app/",
@@ -41,13 +41,6 @@
       "tools": "JavaScript, HTML, CSS",
       "href": "https://visioned.github.io/simon/",
       "git": "https://github.com/visioned/simon"
-    },
-    {
-      "title": "Coral Data",
-      "description": "The start of a coral catalog. This was for the backend practice with MongoDB.",
-      "tools": "React, MongoDB",
-      "href": "",
-      "git": "https://github.com/visioned/coralData"
     },
     {
       "title": "Vanilla JS Drum Kit",
