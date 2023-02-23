@@ -2,22 +2,22 @@
   "side_projects": [
     {
       "title": "Interactive Rating",
-      "description": "Interactive Rating Component. Built with Typescript, React, and TailwindCSS.",
-      "tools": "React, Figma, TailwindCSS, Typescript",
+      "description": "Interactive Rating Component.",
+      "tools": "React, TailwindCSS, Typescript",
       "href": "https://interactive-rating-component-visioned.vercel.app/",
       "git": "https://github.com/visioned/interactive-rating-component"
     },
     {
       "title": "Stats Preview",
-      "description": "Business Stats Preview Card Component. Built with Typescript, React, and TailwindCSS.",
-      "tools": "React, Figma, TailwindCSS, Typescript",
+      "description": "Business Stats Preview Card.",
+      "tools": "React, TailwindCSS, Typescript",
       "href": "https://stats-preview-card-component-visioned.vercel.app/",
       "git": "https://github.com/visioned/stats-preview-card-component"
     },
     {
       "title": "Results Summary",
-      "description": "Summary Component for a results page. Built with Typescript, React, and TailwindCSS.",
-      "tools": "React, Figma, TailwindCSS, Typescript",
+      "description": "Summary Component for a results page.",
+      "tools": "React, TailwindCSS, Typescript",
       "href": "https://results-summary-component-one.vercel.app/",
       "git": "https://github.com/visioned/results-summary-component"
     },
