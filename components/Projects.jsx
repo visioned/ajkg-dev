@@ -38,8 +38,6 @@ const Index = () => {
         </div>
       </div>
       <Tools />
-      {/* side project card initial load */}
-
       <div className="flex flex-wrap py-10 md:gap-6 justify-center">
         {data.side_projects.slice(0, 3).map((side_project) => {
           if (count < 3) {

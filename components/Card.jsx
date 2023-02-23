@@ -26,7 +26,7 @@ const Card = ({ project }) => {
               </a>
             </Button>
           </h2>
-          <p className='max-w-sm text-sm p-6 font-karla leading-6'>{`${project.description}`}</p>
+          <p className='max-w-sm text-sm py-4 px-6 font-karla leading-6'>{`${project.description}`}</p>
         </div>
       </div>
     </div>
