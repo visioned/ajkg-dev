@@ -19,8 +19,8 @@ const Index = () => {
           />
         </div>
 
-        <h3 className='font-karla text-md my-2 tracking-[.6em] uppercase text-center animate__animated animate__fadeIn animate__delay-1s'>
-          front-end developer
+        <h3 className='font-karla text-xs my-2 tracking-[.6em] uppercase text-center animate__animated animate__fadeIn animate__delay-1s'>
+          frontend developer
         </h3>
 
         <h1 class='text-5xl uppercase font-semibold text-center z-10 animate__animated animate__fadeIn'>
