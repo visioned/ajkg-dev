@@ -1,6 +1,13 @@
 {
   "side_projects": [
     {
+      "title": "FAQ Accordion Card",
+      "description": "FAQ Accordion, with a few animations.",
+      "tools": "React, TailwindCSS, Typescript",
+      "href": "https://faq-accordion-card-umber-psi.vercel.app/",
+      "git": "https://github.com/visioned/faq-accordion-card"
+    },
+    {
       "title": "Interactive Rating",
       "description": "Interactive Rating Component.",
       "tools": "React, TailwindCSS, Typescript",
