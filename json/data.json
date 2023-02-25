@@ -1,6 +1,13 @@
 {
   "side_projects": [
     {
+      "title": "Social Proof Card",
+      "description": "Businesses gotta have proof, right?",
+      "tools": "React, TailwindCSS, Typescript",
+      "href": "https://social-proof-section-omega-snowy.vercel.app/",
+      "git": "https://github.com/visioned/social-proof-section"
+    },
+    {
       "title": "FAQ Accordion Card",
       "description": "FAQ Accordion, with a few animations.",
       "tools": "React, TailwindCSS, Typescript",
