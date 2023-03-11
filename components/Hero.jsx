@@ -19,13 +19,13 @@ const Index = () => {
           />
         </div>
 
-        <h3 className='font-karla text-xs my-2 tracking-[.6em] uppercase text-center animate__animated animate__fadeIn animate__delay-1s'>
+        <h1 className='font-karla text-xs my-2 tracking-[.6em] uppercase text-center animate__animated animate__fadeIn animate__delay-1s'>
           frontend developer
-        </h3>
-
-        <h1 class='text-5xl uppercase font-semibold text-center z-10 animate__animated animate__fadeIn'>
-          aj gonzales
         </h1>
+
+        <h2 class='text-5xl uppercase font-semibold text-center z-10 animate__animated animate__fadeIn'>
+          aj gonzales
+        </h2>
 
         <Navbar />
       </div>
