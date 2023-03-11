@@ -21,7 +21,7 @@ const Card = ({ project }) => {
           <h2 className='text-2xl px-6 items-center justify-between flex'>
             {`${project.title}`}
             <Button>
-              <a href={`${project.link}`}>
+              <a aria-label='project link' href={`${project.link}`}>
                 <FiSend />
               </a>
             </Button>
